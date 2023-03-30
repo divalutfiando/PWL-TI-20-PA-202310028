@@ -43,7 +43,7 @@ export default function Form() {
           <div className="row g-3">
           <div className="col-sm-12">
               <label for="npm" className="form-label">NPM</label>
-              <input type="number" className="form-control kotak" id="npm" value={npm} placeholder=""
+              <input type="number" className="form-control isi" id="npm" value={npm} placeholder=""
                 onInput={(event) => {
                   event.target.value = Math.max(0, parseInt(event.target.value)).toString().slice(0, 10)
                 }}
@@ -55,7 +55,7 @@ export default function Form() {
 
             <div className="col-sm-12">
               <label for="firstName" className="form-label">First name</label>
-              <input type="text" className="form-control kotak" id="firstName" value={firstName} placeholder=""
+              <input type="text" className="form-control isi" id="firstName" value={firstName} placeholder=""
                 onChange={(event) => setFirstName(event.target.value)}
                 required />
                 
@@ -63,14 +63,14 @@ export default function Form() {
 
             <div className="col-sm-12">
               <label for="middleName" className="form-label">Middle name</label>
-              <input type="text" className="form-control kotak"   id="middleName" value={middleName} placeholder=""
+              <input type="text" className="form-control isi"   id="middleName" value={middleName} placeholder=""
                 onChange={(event) => setMiddleName(event.target.value)}
               />
             </div>
 
             <div className="col-sm-12">
               <label for="lastName" className="form-label">Last name</label>
-              <input type="text" className="form-control kotak" id="lastName" value={lastName} placeholder=""
+              <input type="text" className="form-control isi" id="lastName" value={lastName} placeholder=""
                 onChange={(event) => setLastName(event.target.value)}
                 required />
             </div>
@@ -79,7 +79,7 @@ export default function Form() {
             
                 <label for="address" className="form-label">Birthdate</label>
                 <DatePicker
-                  className="form-control kotak"
+                  className="form-control isi"
                   selected={date}
                   placeholderText='Enter Birthdate'
                   dateFormat="yyyy-MM-dd"
@@ -90,7 +90,7 @@ export default function Form() {
             </div>
             <div class='col-md-4'>
             {/* <button className="w-100 btn btn-primary btn-lg" type="submit">Submit</button> */}
-            <button type="submit" className="btn btn-success ga" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="submit" className="btn btn-danger bua" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Submit
             </button>
           </div>
