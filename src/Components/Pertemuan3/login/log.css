@@ -46,10 +46,10 @@ padding-top: 30px;
     background: #6b11cb33;
     
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgba(107, 17, 203, 0.356), rgba(37, 116, 252, 0.363));
+    background: -webkit-linear-gradient(to right, rgba(107, 17, 203, 0.486), rgba(37, 116, 252, 0.753));
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(107, 17, 203, 0.493), rgba(37, 116, 252, 0.418))
+    background: linear-gradient(to right, rgba(58, 1, 119, 0.596), rgba(0, 89, 241, 0.575))
 
 }
 

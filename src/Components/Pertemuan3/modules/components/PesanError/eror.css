@@ -1,7 +1,10 @@
 .box{
-
+margin-top : 15rem;
 }
 
 .text{
+    text-align : center;
+    align-items:center;
     color:red;
+    padding-bottom: 17rem;
 }
