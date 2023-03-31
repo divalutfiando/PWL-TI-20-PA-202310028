@@ -28,11 +28,11 @@ function App() {
   }
 
   return (
-    <div style={{marginTop: '10rem'}}class="container w-35 box1">
-      <form onSubmit={handleLogin}>
-        <div class="form-group my-3 kotak">
-            <h3 class='judul' >FORM LOGIN MAHASISWA</h3>
-          <label for="exampleInputEmail1">Email </label>
+    <div style={{marginTop: '8rem'}} class="container w-35 box1 gradient-custom">
+      <form  onSubmit={handleLogin} class="kotk1">
+        <div  class="form-group my-3 kotak">
+            <h3 style={{color:'white'}} class='judul' >FORM LOGIN MAHASISWA</h3>
+          <label style={{fontWeight:'bolder'}} for="exampleInputEmail1">Email </label>
           <input
             class="form-control"
             type="email"
@@ -41,7 +41,7 @@ function App() {
             onChange={(event) => setEmail(event.target.value)} />
         </div>
         <div class="form-group my-3 kotak">
-          <label for="exampleInputPassword1">Kata Sandi</label>
+          <label style={{fontWeight:'bolder'}} for="exampleInputPassword1">Kata Sandi</label>
           <input class="form-control"
             type="password"
             placeholder="Input Kata Sandi"

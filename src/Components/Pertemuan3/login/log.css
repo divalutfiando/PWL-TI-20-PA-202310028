@@ -3,9 +3,12 @@
     border-radius: 30px;
     border: none;
     color: white;
-    width: 10rem;
+    width: 5rem;
     justify-content: center;
     margin-left: 60rem;
+    transition: width 1s;
+    
+
 }
 
 .text-center .btn{
@@ -14,17 +17,21 @@
     width: 25px;
     align-items: center;
     margin-right: 40px;
+
+    
 }
 
 .tbl:hover{
     background-color: rgb(12, 85, 12);
+    width:9rem;
 }
 
 .judul{
     text-align: center;
     font-size: 35px;
-    text-decoration: underline;
+padding-top: 30px;
     font-weight: bold;
+    margin-top: 50px;
 }
 
 .alert{
@@ -32,3 +39,29 @@
     color: red;
     font-weight: bolder;
 }
+
+.gradient-custom{
+
+    /* fallback for old browsers */
+    background: #6b11cb33;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(107, 17, 203, 0.356), rgba(37, 116, 252, 0.363));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(107, 17, 203, 0.493), rgba(37, 116, 252, 0.418))
+
+}
+
+.box1{
+    border-radius:20px;
+    height: 23rem;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -50px; */
+}
+
+.kotk1{
+    margin-top: 5rem;
+}
+
