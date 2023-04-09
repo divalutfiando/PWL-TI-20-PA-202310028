@@ -36,11 +36,11 @@ export function Form(props) {
   };
 
   return (
-    <div className="card bg-white">
+    <div className="card ">
       <div className="card-header border-0 py-3">
         <div className="card-title d-flex flex-column">
-          <h3 className="text-dark">Form Product</h3>
-          <p className="text-muted fs-7">
+          <h3 className="text-light">Form Product</h3>
+          <p className="text-light fs-7">
             Please fill up the form with correctly
           </p>
         </div>

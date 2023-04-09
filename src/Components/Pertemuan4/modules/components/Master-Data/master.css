@@ -1,0 +1,19 @@
+.card{
+    background-color:rgb(77, 77, 77);
+    text-decoration: none;
+    color:#fff
+}
+
+.card-body h3{
+    color: white;
+}
+
+.card-body p{
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.i:hover{
+    background-color:rgba(240, 248, 255, 0.15);
+    
+}
+

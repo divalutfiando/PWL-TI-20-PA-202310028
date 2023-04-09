@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Layouts from '../../layouts/Layouts'
+// import Layouts from '../../layouts/Layouts'
 import Home from '../../modules/components/Homes/Home'
 import Explore from '../../modules/components/Explore/Explore'
 import Messages from '../../modules/components/Messages/Messages'
@@ -11,7 +11,7 @@ import Profiles from '../../modules/components/Profiles/Profiles'
 import Error404 from '../../layouts/components/error-404/Error404'
 import MasterData from '../../modules/components/Master-Data/MasterData'
 import { Products } from '../../modules/components/Master-Data/modules/products/Products'
-import { UsersAcc }   from '../../modules/components/Master-Data/modules/users/UsersAcc'
+import Users from '../../modules/components/Master-Data/modules/users/Users'
 
 
 export default function BasePages() {
@@ -26,7 +26,7 @@ export default function BasePages() {
             </Route>
             <Route path='master-data' element={<MasterData />} >
                 <Route path="products" element={<Products />} />
-                <Route path="usersacc" element={<UsersAcc />} />
+                <Route path="users" element={<Users />} />
             </Route>
             <Route path='messages' element={<Messages />} />
             <Route path='profile' element={<Profiles />} />
