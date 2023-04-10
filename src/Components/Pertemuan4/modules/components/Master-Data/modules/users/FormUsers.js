@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { openModal } from "../../../../../layouts/components/modals/ModalPopUp";
 import axios from "axios";
+import "./tbuser.css"
 
 export default function FormUsers (props) {
   const [postData, setPostData] = useState({
@@ -38,6 +39,7 @@ export default function FormUsers (props) {
       autoComplete="off"
       id="form-product"
       onSubmit={(e) => submitForm(e)}
+       
     >
       <div className="mb-3">
         <label className="form-label">NPM</label>
@@ -109,8 +111,8 @@ export default function FormUsers (props) {
         />
       </div>
 
-      <div className="text-end mt-3">
-        <button className="btn btn-light" type="button">
+      <div className="text-end mt-3 " >
+        <button className="btn bg-danger text-light" style={{marginRight: '5px'}} type="button">
           Cancel
         </button>
         <button className="btn btn-primary" type="submit">

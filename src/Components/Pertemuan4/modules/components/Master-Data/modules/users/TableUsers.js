@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {Button, Modal} from 'react-bootstrap';
 
+
 const TableUsers = ({data}) => {
   const [show, setShow] = useState(false);
   const [id, setId] = useState(0);
@@ -18,7 +19,7 @@ const TableUsers = ({data}) => {
     <div style={{ marginTop : '-1rem' }}>
       <table className="table">
         <thead>
-          <tr>
+          <tr style={{color:'white'}}>
             <th scope="col">No</th>
             <th scope="col">Fullname</th>
             <th scope="col">NPM</th>
@@ -27,12 +28,12 @@ const TableUsers = ({data}) => {
             <th scope="col">Action</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="tbody1">
           
           {
             (Object.values(data).length > 0) ? (
             data.map((e, index) => (
-              <tr key={index}>
+              <tr key={index} class="text-light">
                 <th scope="row">{index+1}</th>
                 <td>{e.firstname} {e.middlename} {e.lastname}</td>
                 <td>{e.npm}</td>

@@ -6,6 +6,7 @@ import LoadingSpin from "../../../../../layouts/components/loadings/LoadingSpin"
 import AlertInfo from "../../../../../layouts/components/alerts/AlertInfo"
 import FormUsers from "../../../Master-Data/modules/users/FormUsers"
 
+
 export default function Users () {
   const [user, setUser] = useState({
     loading: false,
@@ -49,7 +50,7 @@ export default function Users () {
                   />
                 ) : (
                   <div>
-                    <TableUsers data={user.data} />
+                    <TableUsers data={user.data} class="tbuser" />
                     <p>{Object.values(user.data).length} data of user</p>
                   </div>
                 )}
