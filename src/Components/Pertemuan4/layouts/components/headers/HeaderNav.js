@@ -7,10 +7,11 @@ export default function HeaderNav() {
                       { id: 2, name: "Explore", path: "/explore", icon:"bi-compass" },
                       { id: 3, name: "Messages", path: "/messages", icon:"bi-send" },
                       { id: 4, name: "Master Data", path: "/master-data", icon:"bi-database" },
-                      { id: 5, name: "Log Out", path: "/log-out", icon:"bi-box-arrow-left" }];
+                      { id: 5, name: "Log Out", path: "/log-out", icon:"bi-box-arrow-left" },
+                      { id: 6, name: "Quiz", path: "/quiz", icon:"bi-box-arrow-left" }];
     return (
         <header class="header">
-            <nav className="navbar navbar-expand-md fixed-top  bgnav">
+            <nav className="navbar navbar-expand-md fixed-top  nav">
                 <div className="container" >
                     <a className="navbar-brand" href="../../../login/Login.js" class="lgo">
                         <img src="https://www.ibik.ac.id/wp-content/uploads/2023/03/logo-ibik-web.png" alt="ibik-logo" 

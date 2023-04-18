@@ -12,6 +12,8 @@ import Error404 from '../../layouts/components/error-404/Error404'
 import MasterData from '../../modules/components/Master-Data/MasterData'
 import { Products } from '../../modules/components/Master-Data/modules/products/Products'
 import Users from '../../modules/components/Master-Data/modules/users/Users'
+import Quiz from '../../modules/components/Quiz/Quiz'
+import Formquiz from '../../modules/components/Quiz/Formquiz'
 
 
 export default function BasePages() {
@@ -28,6 +30,7 @@ export default function BasePages() {
                 <Route path="products" element={<Products />} />
                 <Route path="users" element={<Users />} />
             </Route>
+            <Route path='quiz' element={<Formquiz />} />
             <Route path='messages' element={<Messages />} />
             <Route path='profile' element={<Profiles />} />
             <Route path='*' element={<Error404 />} />
