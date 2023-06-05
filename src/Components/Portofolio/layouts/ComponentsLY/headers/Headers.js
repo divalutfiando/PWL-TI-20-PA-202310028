@@ -6,15 +6,15 @@ export default function Headers() {
   const navlist = [
     { id: 1, name: "Home", path: "/home", icon: "bi-house-door" },
     { id: 2, name: "About", path: "/about", icon: "bi-compass" },
-    { id: 3, name: "Portofolio", path: "/portofolio", icon: "bi-house-door" },
-    { id: 4, name: "Contact", path: "/contact", icon: "bi-house-door" },
+    { id: 3, name: "Portofolio", path: "/portofolio", icon: "bi-stickies-fill" },
+    { id: 4, name: "Contact", path: "/contact", icon: "bi-person" },
   ];
 
   return (
     <header class="header">
       <nav className="navbar navbar-expand-md fixed-top nav ">
         <div className="container">
-          <a className="navbar-brand text-light" style={{cursor: 'default'}} href="#">
+          <a className="navbar-brand text-light"  href="#">
             <img
               src="https://seeklogo.com/images/P/P_and_amp_G-logo-A9236E27E1-seeklogo.com.png"
               alt="ibik-logo"
@@ -32,10 +32,10 @@ export default function Headers() {
                   {navlist.map((v, index) => (
                     <li className="nav-item me-1" key={index} class='kotak'>
                       <NavLink
-                        className="nav-link text-hover-succes px-3 text-light"
+                        className="nav-link v px-3 text-light"
                         to={v.path} 
                       >
-                        <i className={"bi me-2 fs-5" + v.icon}></i>
+                        <i className={"bi me-2 fs-5 " + v.icon}></i>
                         {v.name}
                       </NavLink>
                     </li>

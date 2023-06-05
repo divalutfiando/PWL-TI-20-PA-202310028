@@ -10,18 +10,25 @@
     z-index: 100;
 }
 
+.v:hover{
+    color: #0ef;
+}
+
 .kotak{
     border-radius: 10px;
-    margin: 12px;
+    margin: 7px;
     font-size: 16px;
     transition: width 0.5s;
-    width: 110px;
+    width: 150px;   
 }
 
 .kotak:hover{
     background-color: #323946;
-    width: 120px;
-    color: #0ef;
+    width: 155px;
 }
 
-
+.v:focus{
+     background-color: #323946;
+     border-radius: 10px;
+     width: 155px;
+}

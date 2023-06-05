@@ -1,0 +1,13 @@
+.hhm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50rem;
+    padding-top: 100px;
+    background: #3c31dd;
+}
+.jdl{
+    color: white;
+    font-size: 115px;
+    border-color: black;
+}

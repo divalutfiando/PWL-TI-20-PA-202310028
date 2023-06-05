@@ -1,0 +1,71 @@
+.ft{
+    opacity: 40%;
+    height : 25vh;
+    width : 100%;
+    object-fit: cover ;
+}
+
+.ftt{
+    opacity: 40%;
+    height : 25vh;
+    width : 100%;
+    object-fit: cover;
+}
+
+.carousel-inner{
+    transition-delay: 2s;
+    
+}
+
+.lga{
+    top: 3%;
+    left: 13%;
+    position: absolute;
+    width: 60px;
+    border-radius: 10px 0 0 10px;
+    /* position: fixed; */
+}
+
+.bglg{   
+    border-radius: 0 20px 20px 0;
+    position : absolute;
+    background-color: rgb(242, 240, 240);
+    width : 85px;
+    height: 65px;
+    top: 29%;
+    left: 0;
+}
+
+/* logo 2 */
+
+.lga2{
+    top: 3%;
+    right: 13%;
+    position: absolute;
+    width: 60px;
+    border-radius: 10px 0 0 10px;
+    /* position: fixed; */
+}
+
+.bglg2{   
+    border-radius: 20px 0 0 20px ;
+    position : absolute;
+    background-color: rgb(255, 255, 255);
+    width : 85px;
+    height: 65px;
+    top: 29%;
+    right: 0;
+}
+
+.judulmid{
+    /* position: fixed; */
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
