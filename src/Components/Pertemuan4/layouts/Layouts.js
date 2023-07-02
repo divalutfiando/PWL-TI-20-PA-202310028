@@ -13,7 +13,7 @@ export default function Layouts(props) {
             <main class="bc" className='mt-20 py-10'>
                 {props.children}
             </main>
-
+     
             <Footers />
             <ModalPopUp />
         </div>

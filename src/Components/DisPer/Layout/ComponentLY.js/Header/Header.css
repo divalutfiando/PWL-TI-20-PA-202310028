@@ -6,12 +6,19 @@
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    background-color: rgba(91, 91, 244, 0.65);
-    color: #fff;
+    background-color: rgb(91, 91, 244);
     font-family: 'Poppins', sans-serif;
 }
 
+.tek2{
+    color: white;
+    text-decoration: none;
+}
 
+.link{
+    color: white;
+    
+}
 
 .isi{
     color: white;
@@ -26,5 +33,7 @@
 }
 
 .tek:hover { 
-    color: yellow;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 94, 255);
 }
+

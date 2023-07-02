@@ -5,13 +5,13 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import AppRoute from './Components/DisPer/App/AppRoute'
+import Approutes from './Components/Coba Popup/Approute/Approutes'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(    
     <React.StrictMode>
         <BrowserRouter >
-            <AppRoute/>
+            <Approutes/>
         </BrowserRouter>
     </React.StrictMode>
   

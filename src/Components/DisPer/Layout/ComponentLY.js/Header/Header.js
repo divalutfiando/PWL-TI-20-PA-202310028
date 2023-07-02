@@ -24,7 +24,7 @@ export default function Header() {
               <ul class="navbar-nav link ">
                 {menuList.map((v, index) => (
                   <li class="nav-item tek" key={index}>
-                    <NavLink class="nav-link " to={v.path}>
+                    <NavLink class="nav-link tek2" to={v.path}>
                       {v.name}
                     </NavLink>
                   </li>

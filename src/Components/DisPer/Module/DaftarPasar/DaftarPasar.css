@@ -33,13 +33,13 @@
 }
 
 .kotak{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     height: 40rem;
     width: 90vw;
-    align-items: center;
-    
+    margin:auto;
 }
 
 .kotak1{
-    background-color: blueviolet;
+  background-color: rgb(175, 232, 249);
+    
 }

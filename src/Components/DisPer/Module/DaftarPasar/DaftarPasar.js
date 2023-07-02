@@ -18,7 +18,7 @@ export default class DaftarPasar extends Component {
 
           <div class="container-fluid kotak1">
             <div class="kotak"> 
-              <p>bajshbdjh</p>
+              
             </div>
           </div>
         </div>

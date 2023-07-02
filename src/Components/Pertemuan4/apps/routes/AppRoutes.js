@@ -8,7 +8,7 @@ export default function AppRoute() {
         <Routes >
             <Route index element={<Navigate to='/home' />} />
             <Route path="signin" element={<Signin />} />
-            <Route path="*" element={<Layouts> <BasePages /> </Layouts>} />
+            <Route path="*" element={<Layouts> <BasePages /></Layouts>} />
         </Routes>
     )
 }
